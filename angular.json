@@ -114,7 +114,16 @@
             "browsers": ["chrome --no-sandbox --window-size=1920,1080"],
             "src": "e2e/src/*.e2e-spec.ts",
             "host": "localhost",
-            "port": 4200
+            "port": 4200,
+            "reporters": [
+              {
+                "name": "spec"
+              },
+              {
+                "name": "html",
+                "output": "target/report"
+              }
+            ]
           }
         }
       }
