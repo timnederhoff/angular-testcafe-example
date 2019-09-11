@@ -7,7 +7,7 @@
     "build": "ng build",
     "test": "ng test",
     "lint": "ng lint",
-    "e2e": "testcafe chrome e2e/src/*.e2e-spec.ts"
+    "e2e": "ng e2e"
   },
   "private": true,
   "dependencies": {
@@ -28,6 +28,7 @@
     "@angular/cli": "~8.3.4",
     "@angular/compiler-cli": "~8.2.5",
     "@angular/language-service": "~8.2.5",
+    "@politie/angular-testcafe-builder": "2.0.2",
     "@types/jasmine": "~3.3.8",
     "@types/node": "~8.9.4",
     "codelyzer": "^5.0.0",
