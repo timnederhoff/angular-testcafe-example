@@ -108,13 +108,12 @@
           }
         },
         "e2e": {
-          "builder": "angular-testcafe",
+          "builder": "angular-testcafe:testcafe",
           "options": {
             "devServerTarget": "angular-testcafe-app:serve",
             "browsers": ["chrome --no-sandbox --window-size=1920,1080"],
             "src": "e2e/src/*.e2e-spec.ts",
             "host": "localhost",
-            "port": 4200,
             "reporters": [
               {
                 "name": "spec"
