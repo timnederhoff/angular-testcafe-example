@@ -108,7 +108,7 @@
           }
         },
         "e2e": {
-          "builder": "@politie/angular-testcafe-builder:testcafe",
+          "builder": "angular-testcafe",
           "options": {
             "devServerTarget": "angular-testcafe-app:serve",
             "browsers": ["chrome --no-sandbox --window-size=1920,1080"],
